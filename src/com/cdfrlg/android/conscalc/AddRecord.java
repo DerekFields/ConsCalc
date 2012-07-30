@@ -1,5 +1,6 @@
 package com.cdfrlg.android.conscalc;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -23,7 +24,8 @@ public class AddRecord extends Activity {
 
 		date = c.getTimeInMillis();
 		Date curDate = new Date(date);
-		stringDate = curDate.toString();
+		SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
+		stringDate = formatter.format(curDate);
 
 		Log.i(Constants.LOG_TAG, "long date is " + date);
 		Log.i(Constants.LOG_TAG, "date string is " + stringDate);
