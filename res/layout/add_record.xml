@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="fill_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewAddRecordHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/addRecordHeading"
+        android:textSize="@dimen/Header1" />
+
+    <TextView
+        android:id="@+id/textViewAddRecordDetails"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/AddRecordDetail"
+        android:textSize="@dimen/Header2" />
+
+    <TextView
+        android:id="@+id/textViewAddRecordRegNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/textViewAddRecordRegNumber"
+        android:textSize="@dimen/Header2" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewAddRecordDateLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="false"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:text="@string/addRecordDateLabel"
+            android:textSize="@dimen/textMedium" />
+
+        <TextView
+            android:id="@+id/textViewAddRecordDateValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="false"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/textViewAddRecordDateLabel"
+            android:text="date tbd"
+            android:textSize="@dimen/textMedium" />
+
+        <Button
+            android:id="@+id/buttonAddRecordPickDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="false"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="61dp"
+            android:layout_toRightOf="@+id/textViewAddRecordDateValue"
+            android:text="@string/buttonAddRecordPickDate" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_medium"
+        android:layout_marginTop="@dimen/padding_medium" >
+
+        <TextView
+            android:id="@+id/textViewAddRecordOdometerLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="false"
+            android:layout_centerVertical="true"
+            android:text="@string/addRecordOdometerLabel"
+            android:textSize="@dimen/textMedium" />
+
+        <EditText
+            android:id="@+id/editTextAddRecordOdometerValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="false"
+            android:ems="10"
+            android:hint="@string/addRecordOdometerHint"
+            android:imeOptions="normal|actionDone"
+            android:inputType="number"
+            android:textSize="@dimen/textMedium" >
+
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_medium"
+        android:layout_marginTop="@dimen/padding_medium" >
+
+        <TextView
+            android:id="@+id/textViewAddRecordGallonsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:text="@string/addRecordGallonsLabel"
+            android:textSize="@dimen/textMedium" />
+
+        <EditText
+            android:id="@+id/editTextGallonsValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:hint="@string/addRecordGallonsHint"
+            android:imeOptions="normal|actionDone"
+            android:inputType="number"
+            android:textSize="@dimen/textMedium" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_medium"
+        android:layout_marginTop="@dimen/padding_medium" >
+
+        <TextView
+            android:id="@+id/textViewAddRecordCostLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="false"
+            android:layout_centerVertical="true"
+            android:text="@string/addRecordCostLabel"
+            android:textSize="@dimen/textMedium" />
+
+        <EditText
+            android:id="@+id/editTextAddRecordCostValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:hint="@string/addRecordCostHint"
+            android:imeOptions="normal|actionDone"
+            android:inputType="number"
+            android:textSize="@dimen/textMedium" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonAddRecordSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="@string/addRecordSave" />
+
+</LinearLayout>

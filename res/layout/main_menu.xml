@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/textViewMenuHeading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/textViewMenuHeading"
+        android:textSize="@dimen/textViewMenuHeading" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutMainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+
+
+        <Button
+            android:id="@+id/buttonAddRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="top|left"
+            android:text="@string/buttonAddRecordText" />
+
+
+
+        <Button
+            android:id="@+id/buttonEditRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="top|right"
+            android:text="@string/buttonEditRecordText" />
+
+
+
+        <Button
+            android:id="@+id/buttonCalculateConsumption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="bottom|left"
+            android:text="@string/buttonCalculateConsumptionText" />
+
+
+
+
+
+        <Button
+            android:id="@+id/buttonDeleteRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/buttonCalculateConsumption"
+            android:text="@string/buttonDeleteRecordText" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="registrationTextSize">20sp</dimen>
+    <dimen name="textViewMenuHeading">25sp</dimen>
+    <dimen name="Header1">30sp</dimen>
+    <dimen name="Header2">25sp</dimen>
+    <dimen name="Header3">20sp</dimen>
+    <dimen name="textMedium">15sp</dimen>
+
+</resources>

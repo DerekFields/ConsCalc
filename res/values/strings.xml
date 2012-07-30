@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">Consumption Calculator</string>
+    <string name="hello_world">Hello world, Consumption Calculator</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="get_registration_label">Enter Vehicle Registration</string>
+    <string name="editTextRegistrationHint">Enter Vehicle Registration</string>
+    <string name="buttonSaveRegistration">Save Registration</string>
+    <string name="textViewMenuHeading">Main Menu</string>
+    <string name="buttonAddRecordText">Add Record</string>
+    <string name="buttonEditRecordText">Edit Record</string>
+    <string name="buttonCalculateConsumptionText">Calculate Consumption</string>
+    <string name="buttonDeleteRecordText">Delete Record</string>
+    <string name="addRecordHeading">Add Record</string>
+    <string name="AddRecordDetail">Detail</string>
+    <string name="textViewAddRecordRegNumber">Registration Number</string>
+    <string name="buttonAddRecordPickDate">Pick Date</string>
+    <string name="addRecordDateLabel">Date:</string>
+    <string name="addRecordOdometerLabel">Odometer:</string>
+    <string name="addRecordSave">Save</string>
+    <string name="addRecordOdometerHint">Enter Odometer Reading</string>
+    <string name="addRecordGallonsLabel">Gallons:</string>
+    <string name="addRecordGallonsHint">Enter Gallons</string>
+    <string name="addRecordCostLabel">Cost</string>
+    <string name="addRecordCostHint">Enter Cost</string>
+
+</resources>
